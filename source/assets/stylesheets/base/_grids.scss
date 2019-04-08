@@ -35,7 +35,7 @@ grid-gap: 200px;
 
   margin:auto;
 overflow: hidden;
-padding: 4rem 1rem;
+padding: 2rem 1rem;
  display: flex;
     flex-wrap: wrap;
 
@@ -60,9 +60,41 @@ padding: 4rem 1rem;
 
 .biz{
 
- /*height: 45vh;*/
+
  display: flex;
 flex-wrap: wrap;
- margin: 40px 50px ;
+    padding: 3rem 1rem;
 
+}
+
+
+@media screen and (max-width:801px){
+.card-pic{
+  display: none;
+}
+
+.grid1, .grid21, .grid2, .grid3{
+
+  grid-template-columns: 1fr ;
+display: grid;
+
+
+
+
+}
+.grid2{
+  grid-gap: 45px;
+}
+.footer-copyright{
+  display: none;
+}
+.products{
+  padding: 1rem 1rem;
+
+}
+
+.urun-bilgi{
+    border-bottom:  rgba(10, 10, 10, 0.3) solid 3px;
+
+}
 }
