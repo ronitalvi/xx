@@ -1,0 +1,68 @@
+.grid1{
+grid-template-columns: 1fr;
+display: grid;
+
+}
+
+.grid2{
+grid-template-columns: 1fr 1fr;
+display: grid;
+grid-gap: 200px;
+
+}
+
+
+.grid3{
+grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+
+}
+
+
+.grid21{
+grid-template-columns: 2fr 1fr;
+display: grid;
+grid-gap: 200px;
+}
+
+.products{
+  // background-image:
+
+  //  url(../images/arka.png);
+  //  background-size: cover;
+  // background-position: center;
+  // background-color: (255, 0, 0, 0.2);
+
+  margin:auto;
+overflow: hidden;
+padding: 4rem 1rem;
+ display: flex;
+    flex-wrap: wrap;
+
+}
+
+.borderalt{
+  border-bottom:  rgba(10, 10, 10, 0.3) solid 3px;
+}
+
+.borderust{
+  border-top:  rgba(10, 10, 10, 0.3) solid 3px;
+}
+
+
+
+
+.urun-bilgi{
+     justify-self: center;
+  align-self: center;
+}
+
+
+.biz{
+
+ /*height: 45vh;*/
+ display: flex;
+flex-wrap: wrap;
+ margin: 40px 50px ;
+
+}
