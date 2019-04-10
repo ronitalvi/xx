@@ -5,7 +5,7 @@
         auto: true,
         pager: false,
         nav: true,
-        speed: 2000,
+        speed: 1000,
         maxwidth: 800,
         namespace: "transparent-btns"
       });
