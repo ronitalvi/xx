@@ -1,9 +1,11 @@
 var con = document.querySelector('.cont');
-console.log(con.classList)
-console.log(window.location.pathname === '/products.html')
+var con = document.querySelector('.co');
+
 
  if (window.location.pathname === '/products.html') {
-  con.classList.add('a')
+  con.classList.add('a');
+  co.classList.add('a')
+
 
  }
 
