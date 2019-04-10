@@ -1,5 +1,5 @@
 var con = document.querySelector('.cont');
-var con = document.querySelector('.co');
+var co = document.querySelector('.co');
 
 
  if (window.location.pathname === '/products.html') {
