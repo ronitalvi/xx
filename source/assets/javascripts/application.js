@@ -1,3 +1,16 @@
+var con = document.querySelector('.cont');
+console.log(con.classList)
+console.log(window.location.pathname === '/products.html')
+
+ if (window.location.pathname === '/products.html') {
+  con.classList.add('a')
+
+ }
+
+
+ console.log()
+
+
  $(function () {
 
       // Slideshow 1
