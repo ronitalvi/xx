@@ -35,7 +35,7 @@ var typeString = [ 'the authentic nature…'];
           count++;
           i = 0;
         }
-        setTimeout(type, 200);
+        setTimeout(type, 300);
       }());
 
       function sleep(milliseconds) {
